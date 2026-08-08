@@ -7,8 +7,7 @@ The project uses an **Artificial Neural Network (ANN)** built with TensorFlow/Ke
 ## 🚀 Live Demo
 
 🔗 **Try the application:**  
-https://bank-customer-churn-prediction-oxpujqgaxcbmga5qjdmdar.streamlit.app/
-
+https://bank-customer-churn-prediction-brefuxpsjaxbaytacpshny.streamlit.app/
 ---
 
 ## 📌 Project Overview
