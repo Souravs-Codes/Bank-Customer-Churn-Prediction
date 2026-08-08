@@ -382,7 +382,7 @@ div.stButton > button:hover {
 @st.cache_resource
 def load_prediction_objects():
 
-    model = load_model("best_model.h5")
+    model = load_model("best_model.h5", compile=False)
 
     with open("label_encoder_gender.pkl", "rb") as file:
         label_encoder_gender = pickle.load(file)
