@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<a href="https://bank-customer-churn-prediction-brefuxpsjaxbaytacpshny.streamlit.app/">{=html}<img src="https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo">{=html}</a>{=html}<a href="https://github.com/Souravs-Codes/Bank-Customer-Churn-Prediction">{=html}<img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">{=html}</a>{=html}
+<a href="https://bank-customer-churn-prediction-brefuxpsjaxbaytacpshny.streamlit.app/"><img src="https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"></a><a href="https://github.com/Souravs-Codes/Bank-Customer-Churn-Prediction"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
 </p>
 
