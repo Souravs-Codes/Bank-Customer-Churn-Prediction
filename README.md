@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<b>{=html}An end-to-end Deep Learning project for predicting bankcustomer churn</b>{=html}<br>{=html} Built with TensorFlow/Keras anddeployed with Streamlit
+<b>An end-to-end Deep Learning project for predicting bankcustomer churn</b>{=html}<br> Built with TensorFlow/Keras anddeployed with Streamlit
 
 </p>
 
