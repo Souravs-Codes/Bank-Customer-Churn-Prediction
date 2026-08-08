@@ -1,97 +1,48 @@
 # 🏦 Bank Customer Churn Prediction
 
-An end-to-end Machine Learning project that predicts whether a bank customer is **likely to churn** based on their demographic, financial, and account-related information.
+An end-to-end Machine Learning project that predicts whether a bank customer is likely to **leave the bank (churn)** based on their demographic, financial, and account information.
 
-The project uses an **Artificial Neural Network (ANN)** built with TensorFlow/Keras and provides a web-based prediction interface using Flask.
+The project uses an **Artificial Neural Network (ANN)** built with TensorFlow/Keras and provides an interactive web interface using **Streamlit**.
 
-🔗 **Live Demo:** https://bank-customer-churn-prediction-rwfm.onrender.com/
+## 🚀 Live Demo
+
+🔗 **Try the application:**  
+https://bank-customer-churn-prediction-oxpujqgaxcbmga5qjdmdar.streamlit.app/
 
 ---
 
 ## 📌 Project Overview
 
-Customer churn is a major challenge for banks and financial institutions. Losing existing customers can be significantly more expensive than retaining them.
+Customer churn is an important problem for banks because losing existing customers can have a significant impact on revenue.
 
-This project aims to predict the probability of a customer leaving the bank by analyzing information such as:
+This project uses historical customer data to train an Artificial Neural Network that estimates the probability that a customer will leave the bank.
 
-- Credit Score
-- Geography
-- Gender
-- Age
-- Tenure
-- Account Balance
-- Number of Products
-- Credit Card ownership
-- Active membership status
-- Estimated Salary
+The application allows users to enter customer information and receive:
 
-The trained ANN model processes the customer's information and returns:
-
-- **Churn Probability**
-- **Churn Prediction**
+- Churn probability
+- Stay probability
+- Churn/Stay prediction
+- Visual probability indicator
+- Explanation of the prediction
 
 ---
 
-## 🎯 Project Objectives
+## 🧠 Machine Learning Model
 
-The main objectives of this project are:
+The prediction model is an **Artificial Neural Network (ANN)** implemented using:
 
-- Perform data preprocessing and feature engineering.
-- Encode categorical variables appropriately.
-- Scale numerical features.
-- Build and train an Artificial Neural Network.
-- Evaluate the model's performance.
-- Save the trained model and preprocessing objects.
-- Build a Flask-based web application.
-- Deploy the application online.
-- Provide an easy-to-use interface for customer churn prediction.
+- TensorFlow
+- Keras
 
----
+The model receives processed customer information and outputs a probability between `0` and `1`.
 
-## 🧠 Machine Learning Workflow
+### Prediction Logic
 
 ```text
-Raw Dataset
-     │
-     ▼
-Data Cleaning
-     │
-     ▼
-Feature Engineering
-     │
-     ▼
-Categorical Encoding
-     │
-     ├── Geography → One-Hot Encoding
-     │
-     └── Gender → Label Encoding
-     │
-     ▼
-Feature Scaling
-     │
-     ▼
-Train / Test Split
-     │
-     ▼
-Artificial Neural Network
-     │
-     ▼
-Model Evaluation
-     │
-     ▼
-Saved Model (.h5)
-     │
-     ▼
-Flask Web Application
-     │
-     ▼
-Customer Input
-     │
-     ▼
-Preprocessing
-     │
-     ▼
-ANN Prediction
-     │
-     ▼
-Churn Probability
+Probability >= 0.50
+        ↓
+Likely to Churn
+
+Probability < 0.50
+        ↓
+Likely to Stay
